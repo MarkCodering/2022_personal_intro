@@ -5,7 +5,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 const desktopNavbar = () => {
 
     return (
-        <Navbar isBordered={isDark} variant="sticky">
+        <Navbar variant="sticky">
             <Navbar.Brand>
                 <Text b color="inherit" hideIn="xs">
                     Mark Portfolio
