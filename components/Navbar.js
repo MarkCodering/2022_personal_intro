@@ -8,7 +8,7 @@ const desktopNavbar = () => {
         <Navbar isBordered={isDark} variant="sticky">
             <Navbar.Brand>
                 <Text b color="inherit" hideIn="xs">
-                    Mark's Portfolio
+                    Mark Portfolio
                 </Text>
             </Navbar.Brand>
             <Navbar.Content hideIn="xs">
