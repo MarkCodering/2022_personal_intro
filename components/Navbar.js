@@ -3,7 +3,7 @@ import { Navbar, Link, Text, useTheme } from "@nextui-org/react";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const desktopNavbar = () => {
-    const { isDark } = useTheme();
+
     return (
         <Navbar isBordered={isDark} variant="sticky">
             <Navbar.Brand>
