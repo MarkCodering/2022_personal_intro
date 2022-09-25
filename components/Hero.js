@@ -10,11 +10,26 @@ export default function Hero() {
             />
             <h1>Hi, my name is Mark</h1>
             <p>I am a computer science student, an undergraduate student, a tech entrepreneur</p>
-            <Link href="https://www.markchen.io">
-                <Button color="gradient" auto>
-                    My Personal Blog
-                </Button>
-            </Link>
+            <Grid.Container gap={0.5} justify="left">
+                <Grid sm={1}>
+                    <Button
+                        auto
+                        color="gradient"
+                        href="https://www.markchen.io"
+                    >
+                        My Blog
+                    </Button>
+                </Grid>
+                <Grid sm={1}>
+                    <Button
+                        auto    
+                        color="gradient"
+                        href="/about"
+                    >
+                        Get Started
+                    </Button>
+                </Grid>
+            </Grid.Container>
         </div>
     )
 }

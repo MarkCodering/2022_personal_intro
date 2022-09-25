@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0rem;
 }
 
 .main {
@@ -13,11 +13,16 @@
 }
 
 .hero {
+  padding-left: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80vh;
   color: white;
+  background-image: url('./img/pawel-czerwinski-_hcYZYk9Abo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -130,6 +135,10 @@
 }
 
 @media (max-width: 600px) {
+  .hero{
+    padding: 2rem;
+  }
+
   .grid {
     width: 100%;
     flex-direction: column;

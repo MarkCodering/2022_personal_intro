@@ -7,14 +7,17 @@ const desktopNavbar = () => {
     return (
         <Navbar variant="sticky">
             <Navbar.Brand>
+                <Link href="/">
                 <Text b color="inherit" hideIn="xs">
                     Mark Portfolio
                 </Text>
+                </Link>
             </Navbar.Brand>
             <Navbar.Content hideIn="xs">
-                <Navbar.Link href="#">About</Navbar.Link>
-                <Navbar.Link href="#">Project</Navbar.Link>
-                <Navbar.Link href="#">Contact</Navbar.Link>
+                <Navbar.Link href="/about">About</Navbar.Link>
+                <Navbar.Link href="/projects">Projects</Navbar.Link>
+                <Navbar.Link href="https://www.markchen.io/">Blog</Navbar.Link>
+                <Navbar.Link href="/contact">Contact</Navbar.Link>
             </Navbar.Content>
         </Navbar>
     )
@@ -41,7 +44,7 @@ const mobileNavbar = () => {
                         css={{
                             minWidth: "100%",
                         }}
-                        href="#"
+                        href="/"
                     >
                         {item}
                     </Link>
